@@ -2,7 +2,8 @@ package jm.security.example.model;
 
 import org.springframework.security.core.GrantedAuthority;
 
-// Этот класс реализует интерфейс GrantedAuthority, в котором необходимо переопределить только один метод getAuthority() (возвращает имя роли).
+// Этот класс реализует интерфейс GrantedAuthority, в котором необходимо переопределить
+// только один метод getAuthority() (возвращает имя роли).
 // Имя роли должно соответствовать шаблону: «ROLE_ИМЯ», например, ROLE_USER.
 public class Role implements GrantedAuthority {
     private Long id;
